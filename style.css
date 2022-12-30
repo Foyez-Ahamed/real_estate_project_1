@@ -3,7 +3,7 @@ body{
 }
 
 /* id background  */
-#container-fluid{
+#container-fl{
     position: relative;
     background-image: url(images/background\ img.jpg);
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@ body{
    
 }
 
-#container-fluid::after{
+#container-fl::after{
     position: absolute;
     content: '';
     top: 0;
@@ -36,6 +36,7 @@ body{
 .header-img{
     width: 100px;
     height: 100px;
+    border-radius: 50%;
 }
 
 /* div 2 customs end  */
@@ -69,6 +70,91 @@ body{
 }
 
 /* div 3 customs end  */
+
+/* main section end  */
+
+/* for farm customs start 
+................. */
+
+#container-bg{
+    position: relative;
+    background-image: url(images/firm\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+   
+}
+
+#container-bg::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.firm-logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.b-style-3{
+    background: transparent;
+    color: white;
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    border-radius: 20px;
+   
+  
+}
+
+.b-style-4{
+    background: rgb(150, 7, 150);
+    color: white;
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+.h5-style{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.h1-style{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 55px;
+    margin-top: 40px;
+    color: darkgoldenrod;
+}
+
+
+.b-style-5{
+    background: transparent;
+    color: white;
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    border-radius: 20px;
+   
+  
+}
+
+.b-style-6{
+    background: #072fa7;
+    color: white;
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+/* for farm customs end 
+.................. */
 
 
 
