@@ -1,3 +1,74 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+/* id background  */
+#container-fluid{
+    position: relative;
+    background-image: url(images/background\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+   
+}
+
+#container-fluid::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/* div 1 customs start  */
+
+ .for-zindex-1{
+    position: relative;
+    z-index: 1;
+ }
+
+/* div 1 customs end  */
+
+/* div 2 customs start  */
+ 
+.header-img{
+    width: 100px;
+    height: 100px;
+}
+
+/* div 2 customs end  */
+
+/* div 3 customs start  */
+
+.p-style{
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-left: 120px;
+}
+.s-style-1{
+    display: block;
+    margin-left: 120px;
+}
+
+.b-style-1{
+    background: transparent;
+    color: white;
+    border: 1px solid #fff;
+    padding: 8px 45px;
+    margin-left: 120px;
+}
+
+.b-style-2{
+    background: transparent;
+    color: white;
+    border: 1px solid #fff;
+    padding: 8px 45px;
+    margin-left: 30px;
+}
+
+/* div 3 customs end  */
+
+
+
