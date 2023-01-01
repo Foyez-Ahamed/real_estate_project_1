@@ -157,4 +157,21 @@ body{
 .................. */
 
 
+/* for team customs start 
+.................. */
+
+.carosel-1-img{
+    width: 0;
+   height: 500px;
+}
+
+.carosel-bg{
+    background: #EBEAE5;
+}
+
+
+/* for team customs start 
+.................. */
+
+
 
